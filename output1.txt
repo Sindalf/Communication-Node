@@ -1,0 +1,235 @@
+run:
+Server socket created
+Welcome to the Control Room. Please input a command
+1
+Creating new node on the host
+Node number 0 created
+Welcome to the Control Room. Please input a command
+Resuming search
+2
+Creating new node on the host with admin
+Node number 1 created
+Welcome to the Control Room. Please input a command
+Resuming search
+Server writing object
+Server writing object
+Server writing object
+Server writing object
+Server writing object
+Server writing object
+Server writing object
+Server writing object
+printHost
+Posting current host's node list
+GlobalID: 0
+UUID: b16df975-6cc1-4e11-92b1-2d87057bbe43
+host:192.168.1.2
+Power: 0
+GlobalID: 1
+UUID: 45b35162-f25a-4759-92da-5a0d646d3ceb
+host:192.168.1.2
+Power: 1
+Welcome to the Control Room. Please input a command
+printAll
+UUID: 45b35162-f25a-4759-92da-5a0d646d3ceb
+host: 192.168.1.2
+UUID: b16df975-6cc1-4e11-92b1-2d87057bbe43
+host: 192.168.1.2
+UUID: e3056d77-0f47-4ad3-943a-ce2a4d4fc70f
+host: 192.168.1.5
+UUID: c0d3a5d7-9548-40e6-bfc3-e50c6a0063c3
+host: 192.168.1.5
+Welcome to the Control Room. Please input a command
+help
+Help message
+1: Create a new node on the host
+2: Create a new node on the host with admin node powers
+deleteNode: Select a node on the host to delete
+printHost: print all the nodes on this host
+createMulti: create multiple nodes at once without admin powers
+adminNode: Give a node admin powers
+ip: Check which IP the bot is searching for
+Exit: exit the program
+Welcome to the Control Room. Please input a command
+controlNode
+Take control of which node on this host?
+GlobalID: 0
+UUID: b16df975-6cc1-4e11-92b1-2d87057bbe43
+host:192.168.1.2
+Power: 0
+GlobalID: 1
+UUID: 45b35162-f25a-4759-92da-5a0d646d3ceb
+host:192.168.1.2
+Power: 1
+1
+What do you want this Node to do?
+deleteNode
+Choose a node to delete
+UUID: 45b35162-f25a-4759-92da-5a0d646d3ceb
+host: 192.168.1.2
+UUID: b16df975-6cc1-4e11-92b1-2d87057bbe43
+host: 192.168.1.2
+UUID: e3056d77-0f47-4ad3-943a-ce2a4d4fc70f
+host: 192.168.1.5
+UUID: c0d3a5d7-9548-40e6-bfc3-e50c6a0063c3
+host: 192.168.1.5
+e3056d77-0f47-4ad3-943a-ce2a4d4fc70f
+transmitting
+The remote node shut down properly
+Welcome to the Control Room. Please input a command
+printAll
+UUID: 45b35162-f25a-4759-92da-5a0d646d3ceb
+host: 192.168.1.2
+UUID: b16df975-6cc1-4e11-92b1-2d87057bbe43
+host: 192.168.1.2
+UUID: c0d3a5d7-9548-40e6-bfc3-e50c6a0063c3
+host: 192.168.1.5
+Welcome to the Control Room. Please input a command
+Server writing object
+Server writing object
+Exception in thread "Thread-2" java.util.ConcurrentModificationException
+	at java.util.HashMap.forEach(HashMap.java:1283)
+	at Client.contactKnownNodes(Client.java:330)
+	at Client.run(Client.java:57)
+controlNode
+Take control of which node on this host?
+GlobalID: 0
+UUID: b16df975-6cc1-4e11-92b1-2d87057bbe43
+host:192.168.1.2
+Power: 0
+GlobalID: 1
+UUID: 45b35162-f25a-4759-92da-5a0d646d3ceb
+host:192.168.1.2
+Power: 1
+1
+What do you want this Node to do?
+transferFile
+Choose a host to transfer the file to
+UUID: 45b35162-f25a-4759-92da-5a0d646d3ceb
+host: 192.168.1.2
+UUID: b16df975-6cc1-4e11-92b1-2d87057bbe43
+host: 192.168.1.2
+UUID: c0d3a5d7-9548-40e6-bfc3-e50c6a0063c3
+host: 192.168.1.5
+UUID: e3056d77-0f47-4ad3-943a-ce2a4d4fc70f
+host: 192.168.1.5
+192.168.1.5
+Welcome to the Control Room. Please input a command
+controlRoom
+Invalid input: type help for assitance
+Welcome to the Control Room. Please input a command
+controlNode
+Take control of which node on this host?
+GlobalID: 0
+UUID: b16df975-6cc1-4e11-92b1-2d87057bbe43
+host:192.168.1.2
+Power: 0
+GlobalID: 1
+UUID: 45b35162-f25a-4759-92da-5a0d646d3ceb
+host:192.168.1.2
+Power: 1
+1
+What do you want this Node to do?
+bandwidth
+Choose a node to determine your network speed
+UUID: 45b35162-f25a-4759-92da-5a0d646d3ceb
+host: 192.168.1.2
+UUID: b16df975-6cc1-4e11-92b1-2d87057bbe43
+host: 192.168.1.2
+UUID: c0d3a5d7-9548-40e6-bfc3-e50c6a0063c3
+host: 192.168.1.5
+UUID: e3056d77-0f47-4ad3-943a-ce2a4d4fc70f
+host: 192.168.1.5
+c0d3a5d7-9548-40e6-bfc3-e50c6a0063c3
+45b35162-f25a-4759-92da-5a0d646d3ceb's average speed to c0d3a5d7-9548-40e6-bfc3-e50c6a0063c3 is 11.1MB/s
+Finished bandwidth
+Welcome to the Control Room. Please input a command
+controlNode
+Take control of which node on this host?
+GlobalID: 0
+UUID: b16df975-6cc1-4e11-92b1-2d87057bbe43
+host:192.168.1.2
+Power: 0
+GlobalID: 1
+UUID: 45b35162-f25a-4759-92da-5a0d646d3ceb
+host:192.168.1.2
+Power: 1
+1
+What do you want this Node to do?
+ping 
+Invalid command. Returning to Control Room
+Welcome to the Control Room. Please input a command
+Resuming search
+controlNode
+Take control of which node on this host?
+GlobalID: 0
+UUID: b16df975-6cc1-4e11-92b1-2d87057bbe43
+host:192.168.1.2
+Power: 0
+GlobalID: 1
+UUID: 45b35162-f25a-4759-92da-5a0d646d3ceb
+host:192.168.1.2
+Power: 1
+1
+What do you want this Node to do?
+ping
+Coose a node to ping by host
+UUID: 45b35162-f25a-4759-92da-5a0d646d3ceb
+host: 192.168.1.2
+UUID: b16df975-6cc1-4e11-92b1-2d87057bbe43
+host: 192.168.1.2
+UUID: c0d3a5d7-9548-40e6-bfc3-e50c6a0063c3
+host: 192.168.1.5
+UUID: e3056d77-0f47-4ad3-943a-ce2a4d4fc70f
+host: 192.168.1.5
+c0d3a5d7-9548-40e6-bfc3-e50c6a0063c3
+Your ping to host 192.168.1.5 is 42ms
+Welcome to the Control Room. Please input a command
+printAll
+UUID: 45b35162-f25a-4759-92da-5a0d646d3ceb
+host: 192.168.1.2
+UUID: b16df975-6cc1-4e11-92b1-2d87057bbe43
+host: 192.168.1.2
+UUID: c0d3a5d7-9548-40e6-bfc3-e50c6a0063c3
+host: 192.168.1.5
+UUID: e3056d77-0f47-4ad3-943a-ce2a4d4fc70f
+host: 192.168.1.5
+Welcome to the Control Room. Please input a command
+Server writing object
+printAll
+UUID: 45b35162-f25a-4759-92da-5a0d646d3ceb
+host: 192.168.1.2
+UUID: b16df975-6cc1-4e11-92b1-2d87057bbe43
+host: 192.168.1.2
+UUID: c0d3a5d7-9548-40e6-bfc3-e50c6a0063c3
+host: 192.168.1.5
+UUID: e3056d77-0f47-4ad3-943a-ce2a4d4fc70f
+host: 192.168.1.5
+UUID: 6d2cfab7-2725-4be6-a769-1877806139e8
+host: 192.168.1.5
+Welcome to the Control Room. Please input a command
+help[
+Invalid input: type help for assitance
+Welcome to the Control Room. Please input a command
+help
+Help message
+1: Create a new node on the host
+2: Create a new node on the host with admin node powers
+deleteNode: Select a node on the host to delete
+printHost: print all the nodes on this host
+createMulti: create multiple nodes at once without admin powers
+adminNode: Give a node admin powers
+ip: Check which IP the bot is searching for
+Exit: exit the program
+Welcome to the Control Room. Please input a command
+ip
+Current search IP: 25
+Welcome to the Control Room. Please input a command
+deleteNode
+Which node do you wish to shutdown on the host?
+1
+Node 1 successfully shutdown
+Welcome to the Control Room. Please input a command
+exit
+Exiting program
+BUILD SUCCESSFUL (total time: 3 minutes 24 seconds)

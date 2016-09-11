@@ -1,0 +1,116 @@
+
+C:\Users\Elise\Downloads>java -jar "JavaProject9 (7).jar"
+Server socket created
+Welcome to the Control Room. Please input a command
+1
+Creating new node on the host
+Resuming search
+Node number 0 created
+Welcome to the Control Room. Please input a command
+2
+Creating new node on the host with admin
+Node number 1 created
+Welcome to the Control Room. Please input a command
+Resuming search
+Server writing object
+Server writing object
+Server writing object
+Server writing object
+Server writing object
+Server writing object
+Server writing object
+Server writing object
+Server writing object
+Server writing object
+Server writing object
+Server writing object
+Server writing object
+Server writing object
+Server writing object
+Server writing object
+Server writing object
+Server writing object
+Server writing object
+Command for 8e776222-314d-4fc0-9233-f90b556f3d0e is 3
+Server writing object
+Server writing object
+Server writing object
+Server writing object
+Server writing object
+Server writing object
+Command for 78676deb-726a-45ab-839d-230fc93f7ebc is 4
+reading bandwidth
+time in ms: 43986
+size in bytes: 512000001
+time in seconds: 43.986
+size in megabytes: 488.2812509536743
+-1
+finished
+Server writing object
+Server writing object
+Server writing object
+Server writing object
+Resuming search
+Resuming search
+Server writing object
+Server writing object
+Server writing object
+Server writing object
+Server writing object
+Server writing object
+Server writing object
+Server writing object
+Server writing object
+Server writing object
+Server writing object
+Exception in thread "Thread-2" java.util.ConcurrentModificationException
+        at java.util.HashMap.forEach(Unknown Source)
+        at Client.contactKnownNodes(Client.java:330)
+        at Client.run(Client.java:57)
+Command for 45b35162-f25a-4759-92da-5a0d646d3ceb is 2
+command 2 recieved
+Deleting node e3056d77-0f47-4ad3-943a-ce2a4d4fc70f
+Deleted
+Shutting down node 0
+Server writing object
+Server writing object
+Command for 45b35162-f25a-4759-92da-5a0d646d3ceb is 5
+1328
+done transferring files
+Command for 45b35162-f25a-4759-92da-5a0d646d3ceb is 4
+reading bandwidth
+time in ms: 43976
+size in bytes: 512000001
+time in seconds: 43.976
+size in megabytes: 488.2812509536743
+-1
+finished
+Command for 45b35162-f25a-4759-92da-5a0d646d3ceb is 3
+2
+Creating new node on the host with admin
+Node number 2 created
+Welcome to the Control Room. Please input a command
+Resuming search
+Server writing object
+Server writing object
+Could not connect to node, removing from list
+Could not connect to node, removing from list
+Could not connect to node, removing from list
+Exception in thread "main"
+C:\Users\Elise\Downloads>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
